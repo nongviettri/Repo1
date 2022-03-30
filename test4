@@ -1,6 +1,10 @@
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CustomFeedDemo.aspx.cs"
     Inherits="Brickred.SocialAuth.NET.Demo.CustomFeedDemo" MasterPageFile="~/DemoSite.Master" %>
-
+    <div style="background:#EEEEF7;padding:10px 0px 10px 0px">
+    <code>
+    &lt;add WrapperName="FacebookWrapper" ConsumerKey="152190004803645" ConsumerSecret="64c94bd02180b0ade85889b44b2ba7c4" <b>AdditionalScopes="user_photos"</b>/&gt;
+    </code>
+    </div>
 <asp:Content ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .largecontent
